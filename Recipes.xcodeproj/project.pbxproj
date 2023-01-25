@@ -7,9 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE21AA02297F662600F6F591 /* GeneratedRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE21AA01297F662600F6F591 /* GeneratedRecipe.swift */; };
+		AE21AA06297F688500F6F591 /* HomeTabsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE21AA05297F688500F6F591 /* HomeTabsCoordinator.swift */; };
+		AE21AA09297F68D900F6F591 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE21AA08297F68D900F6F591 /* UIView+extension.swift */; };
+		AE21AA0C297F699600F6F591 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE21AA0B297F699600F6F591 /* LoginView.swift */; };
+		AE21AA10297F6A0B00F6F591 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE21AA0F297F6A0B00F6F591 /* AppEnvironment.swift */; };
+		AE21AA12297F6A4400F6F591 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE21AA11297F6A4400F6F591 /* Environment.swift */; };
+		AE21AA2C297F6E6B00F6F591 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE21AA2B297F6E6B00F6F591 /* AuthService.swift */; };
+		AE21AA2E297F79C500F6F591 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE21AA2D297F79C500F6F591 /* LoginViewModel.swift */; };
+		AE21AA31297F827900F6F591 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE21AA30297F827900F6F591 /* CreateAccountView.swift */; };
+		AE21AA3F2980121A00F6F591 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE21AA3E2980121A00F6F591 /* AWSAPIPlugin */; };
+		AE21AA412980121A00F6F591 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE21AA402980121A00F6F591 /* AWSCognitoAuthPlugin */; };
+		AE21AA432980121A00F6F591 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE21AA422980121A00F6F591 /* AWSDataStorePlugin */; };
+		AE21AA452980121A00F6F591 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = AE21AA442980121A00F6F591 /* Amplify */; };
+		AE21AA482980166900F6F591 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = AE21AA472980166900F6F591 /* amplifyconfiguration.json */; };
+		AE21AA582980301700F6F591 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE21AA572980301700F6F591 /* Assets.swift */; };
+		AE21AA5A2980648F00F6F591 /* ConfirmSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE21AA592980648F00F6F591 /* ConfirmSignUpView.swift */; };
+		AE7FD5DA29819881003C5728 /* AuthGradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5D929819881003C5728 /* AuthGradientBackgroundView.swift */; };
+		AE7FD5DC29819C88003C5728 /* AuthDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5DB29819C88003C5728 /* AuthDivider.swift */; };
+		AE7FD5DF2981CAE2003C5728 /* AuthServiceEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5DE2981CAE2003C5728 /* AuthServiceEnums.swift */; };
+		AEBED67B29806542004FA3CF /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED67A29806542004FA3CF /* CreateAccountViewModel.swift */; };
+		AEBED67D2980657A004FA3CF /* ConfirmSignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED67C2980657A004FA3CF /* ConfirmSignUpViewModel.swift */; };
+		AEBED67F298068EE004FA3CF /* CreateAccountCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED67E298068EE004FA3CF /* CreateAccountCoordinator.swift */; };
+		AEBED6812980A209004FA3CF /* UIViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED6802980A209004FA3CF /* UIViewController+extension.swift */; };
+		AEBED6842980C02B004FA3CF /* RTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED6832980C02B004FA3CF /* RTextField.swift */; };
+		AEBED6862980C948004FA3CF /* TextFieldRepresented.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED6852980C948004FA3CF /* TextFieldRepresented.swift */; };
+		AEBED6882980C984004FA3CF /* RSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED6872980C984004FA3CF /* RSecureField.swift */; };
+		AEBED68A2980CB5B004FA3CF /* Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED6892980CB5B004FA3CF /* Unwrap.swift */; };
+		AEBED68C2980DA35004FA3CF /* LoadingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED68B2980DA35004FA3CF /* LoadingLabel.swift */; };
+		AEBED68E2980DB4C004FA3CF /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED68D2980DB4C004FA3CF /* ActivityIndicator.swift */; };
+		AEBED6912980DBB7004FA3CF /* HiddenModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED6902980DBB7004FA3CF /* HiddenModifier.swift */; };
+		AEBED6932980DC6B004FA3CF /* FormButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED6922980DC6B004FA3CF /* FormButtonStyle.swift */; };
+		AEBED6952980DCD5004FA3CF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBED6942980DCD5004FA3CF /* Colors.xcassets */; };
+		AEBED6972980E889004FA3CF /* View+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED6962980E889004FA3CF /* View+extension.swift */; };
+		AEBED699298178F1004FA3CF /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED698298178F1004FA3CF /* AuthHeaderView.swift */; };
+		AEBED69E29818326004FA3CF /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED69D29818326004FA3CF /* ForgotPasswordView.swift */; };
+		AEBED6A029818331004FA3CF /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED69F29818331004FA3CF /* ForgotPasswordViewModel.swift */; };
 		AECC41A8297F5B1D0027D9AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC41A7297F5B1D0027D9AA /* AppDelegate.swift */; };
 		AECC41AA297F5B1D0027D9AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC41A9297F5B1D0027D9AA /* SceneDelegate.swift */; };
-		AECC41AC297F5B1D0027D9AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC41AB297F5B1D0027D9AA /* ViewController.swift */; };
+		AECC41AC297F5B1D0027D9AA /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC41AB297F5B1D0027D9AA /* AppCoordinator.swift */; };
 		AECC41B1297F5B1E0027D9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECC41B0297F5B1E0027D9AA /* Assets.xcassets */; };
 		AECC41B4297F5B1E0027D9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECC41B2297F5B1E0027D9AA /* LaunchScreen.storyboard */; };
 		AECC41BF297F5B1E0027D9AA /* RecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC41BE297F5B1E0027D9AA /* RecipesTests.swift */; };
@@ -35,10 +71,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE21AA01297F662600F6F591 /* GeneratedRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedRecipe.swift; sourceTree = "<group>"; };
+		AE21AA05297F688500F6F591 /* HomeTabsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabsCoordinator.swift; sourceTree = "<group>"; };
+		AE21AA08297F68D900F6F591 /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		AE21AA0B297F699600F6F591 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AE21AA0F297F6A0B00F6F591 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		AE21AA11297F6A4400F6F591 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		AE21AA2B297F6E6B00F6F591 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		AE21AA2D297F79C500F6F591 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		AE21AA30297F827900F6F591 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		AE21AA472980166900F6F591 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		AE21AA572980301700F6F591 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		AE21AA592980648F00F6F591 /* ConfirmSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpView.swift; sourceTree = "<group>"; };
+		AE7FD5D929819881003C5728 /* AuthGradientBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthGradientBackgroundView.swift; sourceTree = "<group>"; };
+		AE7FD5DB29819C88003C5728 /* AuthDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDivider.swift; sourceTree = "<group>"; };
+		AE7FD5DE2981CAE2003C5728 /* AuthServiceEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceEnums.swift; sourceTree = "<group>"; };
+		AEBED67A29806542004FA3CF /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
+		AEBED67C2980657A004FA3CF /* ConfirmSignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpViewModel.swift; sourceTree = "<group>"; };
+		AEBED67E298068EE004FA3CF /* CreateAccountCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountCoordinator.swift; sourceTree = "<group>"; };
+		AEBED6802980A209004FA3CF /* UIViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+extension.swift"; sourceTree = "<group>"; };
+		AEBED6832980C02B004FA3CF /* RTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTextField.swift; sourceTree = "<group>"; };
+		AEBED6852980C948004FA3CF /* TextFieldRepresented.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldRepresented.swift; sourceTree = "<group>"; };
+		AEBED6872980C984004FA3CF /* RSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSecureField.swift; sourceTree = "<group>"; };
+		AEBED6892980CB5B004FA3CF /* Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unwrap.swift; sourceTree = "<group>"; };
+		AEBED68B2980DA35004FA3CF /* LoadingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingLabel.swift; sourceTree = "<group>"; };
+		AEBED68D2980DB4C004FA3CF /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		AEBED6902980DBB7004FA3CF /* HiddenModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenModifier.swift; sourceTree = "<group>"; };
+		AEBED6922980DC6B004FA3CF /* FormButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormButtonStyle.swift; sourceTree = "<group>"; };
+		AEBED6942980DCD5004FA3CF /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		AEBED6962980E889004FA3CF /* View+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+extension.swift"; sourceTree = "<group>"; };
+		AEBED698298178F1004FA3CF /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		AEBED69D29818326004FA3CF /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		AEBED69F29818331004FA3CF /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
 		AECC41A4297F5B1D0027D9AA /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECC41A7297F5B1D0027D9AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AECC41A9297F5B1D0027D9AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AECC41AB297F5B1D0027D9AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AECC41AB297F5B1D0027D9AA /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		AECC41B0297F5B1E0027D9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AECC41B3297F5B1E0027D9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AECC41B5297F5B1E0027D9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +122,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE21AA432980121A00F6F591 /* AWSDataStorePlugin in Frameworks */,
+				AE21AA452980121A00F6F591 /* Amplify in Frameworks */,
+				AE21AA3F2980121A00F6F591 /* AWSAPIPlugin in Frameworks */,
+				AE21AA412980121A00F6F591 /* AWSCognitoAuthPlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +146,141 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE21AA00297F65AB00F6F591 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE21AA01297F662600F6F591 /* GeneratedRecipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE21AA03297F669000F6F591 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				AECC41AB297F5B1D0027D9AA /* AppCoordinator.swift */,
+				AE21AA05297F688500F6F591 /* HomeTabsCoordinator.swift */,
+				AEBED67E298068EE004FA3CF /* CreateAccountCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		AE21AA07297F68C800F6F591 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AE21AA08297F68D900F6F591 /* UIView+extension.swift */,
+				AEBED6802980A209004FA3CF /* UIViewController+extension.swift */,
+				AEBED6962980E889004FA3CF /* View+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AE21AA0D297F699E00F6F591 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AE21AA0B297F699600F6F591 /* LoginView.swift */,
+				AE21AA2D297F79C500F6F591 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AE21AA0E297F69FB00F6F591 /* App Enviornment  */ = {
+			isa = PBXGroup;
+			children = (
+				AE21AA0F297F6A0B00F6F591 /* AppEnvironment.swift */,
+				AE21AA11297F6A4400F6F591 /* Environment.swift */,
+			);
+			path = "App Enviornment ";
+			sourceTree = "<group>";
+		};
+		AE21AA2F297F826E00F6F591 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				AEBED69C29818307004FA3CF /* Views */,
+				AE21AA5B298064EE00F6F591 /* ViewModels */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		AE21AA5629802F4100F6F591 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				AE21AA572980301700F6F591 /* Assets.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		AE21AA5B298064EE00F6F591 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AEBED67A29806542004FA3CF /* CreateAccountViewModel.swift */,
+				AEBED67C2980657A004FA3CF /* ConfirmSignUpViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AE7FD5DD2981CAB1003C5728 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AE21AA2B297F6E6B00F6F591 /* AuthService.swift */,
+				AE7FD5DE2981CAE2003C5728 /* AuthServiceEnums.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AEBED6822980C012004FA3CF /* RCommons */ = {
+			isa = PBXGroup;
+			children = (
+				AEBED6832980C02B004FA3CF /* RTextField.swift */,
+				AEBED6852980C948004FA3CF /* TextFieldRepresented.swift */,
+				AEBED6872980C984004FA3CF /* RSecureField.swift */,
+				AEBED6892980CB5B004FA3CF /* Unwrap.swift */,
+				AEBED68B2980DA35004FA3CF /* LoadingLabel.swift */,
+				AEBED68D2980DB4C004FA3CF /* ActivityIndicator.swift */,
+				AEBED6922980DC6B004FA3CF /* FormButtonStyle.swift */,
+				AEBED698298178F1004FA3CF /* AuthHeaderView.swift */,
+				AE7FD5D929819881003C5728 /* AuthGradientBackgroundView.swift */,
+				AE7FD5DB29819C88003C5728 /* AuthDivider.swift */,
+			);
+			path = RCommons;
+			sourceTree = "<group>";
+		};
+		AEBED68F2980DBA8004FA3CF /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				AEBED6902980DBB7004FA3CF /* HiddenModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		AEBED69A298182DE004FA3CF /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AE21AA0D297F699E00F6F591 /* Login */,
+				AE21AA2F297F826E00F6F591 /* SignUp */,
+				AEBED69B298182F8004FA3CF /* Forgot Password */,
+				AE7FD5DD2981CAB1003C5728 /* Service */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		AEBED69B298182F8004FA3CF /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				AEBED69D29818326004FA3CF /* ForgotPasswordView.swift */,
+				AEBED69F29818331004FA3CF /* ForgotPasswordViewModel.swift */,
+			);
+			path = "Forgot Password";
+			sourceTree = "<group>";
+		};
+		AEBED69C29818307004FA3CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE21AA592980648F00F6F591 /* ConfirmSignUpView.swift */,
+				AE21AA30297F827900F6F591 /* CreateAccountView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AECC419B297F5B1D0027D9AA = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +304,21 @@
 		AECC41A6297F5B1D0027D9AA /* Recipes */ = {
 			isa = PBXGroup;
 			children = (
+				AE21AA03297F669000F6F591 /* Coordinators */,
+				AEBED69A298182DE004FA3CF /* Auth */,
+				AE21AA0E297F69FB00F6F591 /* App Enviornment  */,
+				AE21AA5629802F4100F6F591 /* Generated */,
+				AEBED68F2980DBA8004FA3CF /* Modifiers */,
+				AEBED6822980C012004FA3CF /* RCommons */,
+				AE21AA00297F65AB00F6F591 /* Models */,
+				AE21AA07297F68C800F6F591 /* Extensions */,
 				AECC41A7297F5B1D0027D9AA /* AppDelegate.swift */,
 				AECC41A9297F5B1D0027D9AA /* SceneDelegate.swift */,
-				AECC41AB297F5B1D0027D9AA /* ViewController.swift */,
 				AECC41B0297F5B1E0027D9AA /* Assets.xcassets */,
+				AEBED6942980DCD5004FA3CF /* Colors.xcassets */,
 				AECC41B2297F5B1E0027D9AA /* LaunchScreen.storyboard */,
 				AECC41B5297F5B1E0027D9AA /* Info.plist */,
+				AE21AA472980166900F6F591 /* amplifyconfiguration.json */,
 			);
 			path = Recipes;
 			sourceTree = "<group>";
@@ -140,6 +356,12 @@
 			dependencies = (
 			);
 			name = Recipes;
+			packageProductDependencies = (
+				AE21AA3E2980121A00F6F591 /* AWSAPIPlugin */,
+				AE21AA402980121A00F6F591 /* AWSCognitoAuthPlugin */,
+				AE21AA422980121A00F6F591 /* AWSDataStorePlugin */,
+				AE21AA442980121A00F6F591 /* Amplify */,
+			);
 			productName = Recipes;
 			productReference = AECC41A4297F5B1D0027D9AA /* Recipes.app */;
 			productType = "com.apple.product-type.application";
@@ -212,6 +434,9 @@
 				Base,
 			);
 			mainGroup = AECC419B297F5B1D0027D9AA;
+			packageReferences = (
+				AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */,
+			);
 			productRefGroup = AECC41A5297F5B1D0027D9AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -229,6 +454,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AECC41B4297F5B1E0027D9AA /* LaunchScreen.storyboard in Resources */,
+				AEBED6952980DCD5004FA3CF /* Colors.xcassets in Resources */,
+				AE21AA482980166900F6F591 /* amplifyconfiguration.json in Resources */,
 				AECC41B1297F5B1E0027D9AA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,9 +481,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AECC41AC297F5B1D0027D9AA /* ViewController.swift in Sources */,
+				AEBED6842980C02B004FA3CF /* RTextField.swift in Sources */,
+				AE21AA31297F827900F6F591 /* CreateAccountView.swift in Sources */,
+				AE21AA0C297F699600F6F591 /* LoginView.swift in Sources */,
+				AEBED6932980DC6B004FA3CF /* FormButtonStyle.swift in Sources */,
+				AEBED6812980A209004FA3CF /* UIViewController+extension.swift in Sources */,
+				AE7FD5DC29819C88003C5728 /* AuthDivider.swift in Sources */,
+				AEBED68E2980DB4C004FA3CF /* ActivityIndicator.swift in Sources */,
+				AEBED6A029818331004FA3CF /* ForgotPasswordViewModel.swift in Sources */,
+				AE21AA09297F68D900F6F591 /* UIView+extension.swift in Sources */,
+				AE21AA2E297F79C500F6F591 /* LoginViewModel.swift in Sources */,
+				AEBED67B29806542004FA3CF /* CreateAccountViewModel.swift in Sources */,
+				AEBED69E29818326004FA3CF /* ForgotPasswordView.swift in Sources */,
+				AECC41AC297F5B1D0027D9AA /* AppCoordinator.swift in Sources */,
 				AECC41A8297F5B1D0027D9AA /* AppDelegate.swift in Sources */,
+				AEBED67D2980657A004FA3CF /* ConfirmSignUpViewModel.swift in Sources */,
+				AEBED6882980C984004FA3CF /* RSecureField.swift in Sources */,
+				AEBED699298178F1004FA3CF /* AuthHeaderView.swift in Sources */,
+				AEBED67F298068EE004FA3CF /* CreateAccountCoordinator.swift in Sources */,
+				AEBED6862980C948004FA3CF /* TextFieldRepresented.swift in Sources */,
+				AE21AA5A2980648F00F6F591 /* ConfirmSignUpView.swift in Sources */,
+				AEBED6972980E889004FA3CF /* View+extension.swift in Sources */,
+				AE21AA12297F6A4400F6F591 /* Environment.swift in Sources */,
+				AE21AA582980301700F6F591 /* Assets.swift in Sources */,
+				AEBED68C2980DA35004FA3CF /* LoadingLabel.swift in Sources */,
+				AEBED68A2980CB5B004FA3CF /* Unwrap.swift in Sources */,
+				AE21AA2C297F6E6B00F6F591 /* AuthService.swift in Sources */,
+				AE21AA06297F688500F6F591 /* HomeTabsCoordinator.swift in Sources */,
+				AE21AA10297F6A0B00F6F591 /* AppEnvironment.swift in Sources */,
 				AECC41AA297F5B1D0027D9AA /* SceneDelegate.swift in Sources */,
+				AEBED6912980DBB7004FA3CF /* HiddenModifier.swift in Sources */,
+				AE7FD5DA29819881003C5728 /* AuthGradientBackgroundView.swift in Sources */,
+				AE21AA02297F662600F6F591 /* GeneratedRecipe.swift in Sources */,
+				AE7FD5DF2981CAE2003C5728 /* AuthServiceEnums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +611,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -408,7 +665,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -426,6 +683,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7U2RR2TUT7;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Recipes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -454,6 +712,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7U2RR2TUT7;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Recipes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -590,6 +849,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE21AA3E2980121A00F6F591 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSAPIPlugin;
+		};
+		AE21AA402980121A00F6F591 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		AE21AA422980121A00F6F591 /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSDataStorePlugin;
+		};
+		AE21AA442980121A00F6F591 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AECC419C297F5B1D0027D9AA /* Project object */;
 }

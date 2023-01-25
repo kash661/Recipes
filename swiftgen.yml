@@ -1,0 +1,7 @@
+xcassets:
+    inputs:
+    - Recipes/Assets.xcassets
+    - Recipes/Colors.xcassets
+    outputs:
+        templateName: swift5
+        output: Recipes/Generated/Assets.swift
