@@ -1,5 +1,5 @@
 //
-//  FormButtonStyle.swift
+//  AuthButtonStyle.swift
 //  Recipes
 //
 //  Created by Akash Desai on 2023-01-24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FormButtonStyle: ButtonStyle {
+struct AuthButtonStyle: ButtonStyle {
     var isEnabled: Bool
     func makeBody(configuration: Self.Configuration) -> some View {
       configuration.label

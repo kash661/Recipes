@@ -14,7 +14,6 @@ public struct RSecureField: View {
     @Binding public var isShowingSecureEntry: Bool
     public let returnKeyType: UIReturnKeyType
 
-    public var onEditingChanged: ((Bool) -> Void)?
     public var onCommit: (() -> Void)?
     public var onToggleSecure: ((Bool) -> Void)?
 
@@ -22,13 +21,11 @@ public struct RSecureField: View {
                 text: Binding<String>,
                 isShowingSecureEntry: Binding<Bool>,
                 returnKeyType: UIReturnKeyType = .default,
-                onEditingChanged: ((Bool) -> Void)? = nil,
                 onCommit: (() -> Void)? = nil,
                 onToggleSecure: ((Bool) -> Void)? = nil) {
         self.placeholder = placeholder
         self._text = text
         self.returnKeyType = returnKeyType
-        self.onEditingChanged = onEditingChanged
         self.onCommit = onCommit
         self.onToggleSecure = onToggleSecure
         self._isShowingSecureEntry = isShowingSecureEntry
@@ -38,29 +35,28 @@ public struct RSecureField: View {
         HStack {
             TextFieldRepresented(placeholder: placeholder,
                                  text: self.$text,
-                                 textContentType: .password,
                                  keyboardType: .default,
                                  returnKeyType: returnKeyType,
                                  isShowingSecureEntry: self.$isShowingSecureEntry,
-                                 onEditingChanged: onEditingChanged,
                                  onCommit: onCommit)
-            EyeButton(isShowingSecureEntry: isShowingSecureEntry) {
+            EyeButtonView(isShowingSecureEntry: isShowingSecureEntry) {
                 self.isShowingSecureEntry.toggle()
                 self.onToggleSecure?(self.isShowingSecureEntry)
             }
             .frame(width: 30, height: 30)
-
         }
     }
 }
 
-private struct EyeButton: View {
-
+private struct EyeButtonView: View {
+    
     var isShowingSecureEntry: Bool
-    var onTap: (() -> Void)?
+    var onTapEye: (() -> Void)?
 
     var body: some View {
-        Button(action: { onTap?() }) {
+        Button {
+            onTapEye?()
+        } label: {
             Image(uiImage: isShowingSecureEntry ? Asset.Assets.showPassword.image : Asset.Assets.hidePassword.image)
                 .resizable()
         }

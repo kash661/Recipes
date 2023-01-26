@@ -85,17 +85,14 @@ public struct RTextField: View {
                                           text: textIntercept,
                                           isShowingSecureEntry: self.$isShowingSecureEntry,
                                           returnKeyType: self.returnKeyType,
-                                          onEditingChanged: self.onEditingChanged,
                                           onCommit: self.onCommit,
                                           onToggleSecure: self.onToggleSecure)
                         .frame(maxWidth: .infinity, alignment: .leading)
                 } else {
                     TextFieldRepresented(placeholder: self.placeholder,
                                          text: textIntercept,
-                                         textContentType: self.textContentType,
                                          keyboardType: self.keyboardType,
                                          returnKeyType: self.returnKeyType,
-                                         onEditingChanged: self.onEditingChanged,
                                          onCommit: self.onCommit)
                         .frame(maxWidth: .infinity, alignment: .leading)
                 }

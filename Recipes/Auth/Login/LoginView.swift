@@ -110,7 +110,7 @@ private extension LoginView {
             }
         }
         .frame(width: 120)
-        .buttonStyle(FormButtonStyle(isEnabled: true))
+        .buttonStyle(AuthButtonStyle(isEnabled: true))
     }
     
     var signUpButton: some View {

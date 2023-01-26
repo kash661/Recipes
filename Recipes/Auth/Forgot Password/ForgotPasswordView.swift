@@ -76,6 +76,6 @@ private extension ForgotPasswordView {
             }
         })
         .frame(width: 120)
-        .buttonStyle(FormButtonStyle(isEnabled: true))
+        .buttonStyle(AuthButtonStyle(isEnabled: true))
     }
 }

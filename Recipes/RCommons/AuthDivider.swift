@@ -12,7 +12,7 @@ struct AuthDivider: View {
     
     var body: some View {
         Rectangle()
-            .foregroundColor(Asset.Colors.textColorSecondary.swiftUIColor)
+            .foregroundColor(Asset.Colors.textColor.swiftUIColor.opacity(0.15))
             .frame(height: 1.0)
             .ignoresSafeArea(.all)
             .padding(.leading, -20)

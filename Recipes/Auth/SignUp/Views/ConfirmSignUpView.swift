@@ -65,7 +65,7 @@ private extension ConfirmSignUpView {
             }
         }
         .frame(width: 80)
-        .buttonStyle(FormButtonStyle(isEnabled: true))
+        .buttonStyle(AuthButtonStyle(isEnabled: true))
     }
     
     var resendCodeButton: some View {

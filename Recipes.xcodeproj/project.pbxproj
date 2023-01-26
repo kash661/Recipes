@@ -23,6 +23,14 @@
 		AE21AA482980166900F6F591 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = AE21AA472980166900F6F591 /* amplifyconfiguration.json */; };
 		AE21AA582980301700F6F591 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE21AA572980301700F6F591 /* Assets.swift */; };
 		AE21AA5A2980648F00F6F591 /* ConfirmSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE21AA592980648F00F6F591 /* ConfirmSignUpView.swift */; };
+		AE6CB40D298213470098F59E /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = AE6CB40C298213470098F59E /* Amplify */; };
+		AE6CB40F298213470098F59E /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE6CB40E298213470098F59E /* AWSAPIPlugin */; };
+		AE6CB411298213470098F59E /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE6CB410298213470098F59E /* AWSCognitoAuthPlugin */; };
+		AE6CB413298213470098F59E /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE6CB412298213470098F59E /* AWSDataStorePlugin */; };
+		AE6CB415298213470098F59E /* AWSLocationGeoPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE6CB414298213470098F59E /* AWSLocationGeoPlugin */; };
+		AE6CB417298213470098F59E /* AWSPinpointAnalyticsPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE6CB416298213470098F59E /* AWSPinpointAnalyticsPlugin */; };
+		AE6CB419298213470098F59E /* AWSPluginsCore in Frameworks */ = {isa = PBXBuildFile; productRef = AE6CB418298213470098F59E /* AWSPluginsCore */; };
+		AE6CB41B298213470098F59E /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE6CB41A298213470098F59E /* AWSS3StoragePlugin */; };
 		AE7FD5DA29819881003C5728 /* AuthGradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5D929819881003C5728 /* AuthGradientBackgroundView.swift */; };
 		AE7FD5DC29819C88003C5728 /* AuthDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5DB29819C88003C5728 /* AuthDivider.swift */; };
 		AE7FD5DF2981CAE2003C5728 /* AuthServiceEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5DE2981CAE2003C5728 /* AuthServiceEnums.swift */; };
@@ -31,6 +39,8 @@
 		AE7FD5E72981FDB3003C5728 /* ShoppingListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5E62981FDB3003C5728 /* ShoppingListCoordinator.swift */; };
 		AE7FD5E92981FDBF003C5728 /* FavouriteRecipesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5E82981FDBF003C5728 /* FavouriteRecipesCoordinator.swift */; };
 		AE7FD5EB2981FDCF003C5728 /* MoreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5EA2981FDCF003C5728 /* MoreCoordinator.swift */; };
+		AE7FD60129820D73003C5728 /* LoginViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5FF29820D6F003C5728 /* LoginViewTests.swift */; };
+		AE7FD60429821021003C5728 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = AE7FD60329821021003C5728 /* SnapshotTesting */; };
 		AEBED67B29806542004FA3CF /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED67A29806542004FA3CF /* CreateAccountViewModel.swift */; };
 		AEBED67D2980657A004FA3CF /* ConfirmSignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED67C2980657A004FA3CF /* ConfirmSignUpViewModel.swift */; };
 		AEBED67F298068EE004FA3CF /* CreateAccountCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED67E298068EE004FA3CF /* CreateAccountCoordinator.swift */; };
@@ -42,7 +52,7 @@
 		AEBED68C2980DA35004FA3CF /* LoadingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED68B2980DA35004FA3CF /* LoadingLabel.swift */; };
 		AEBED68E2980DB4C004FA3CF /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED68D2980DB4C004FA3CF /* ActivityIndicator.swift */; };
 		AEBED6912980DBB7004FA3CF /* HiddenModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED6902980DBB7004FA3CF /* HiddenModifier.swift */; };
-		AEBED6932980DC6B004FA3CF /* FormButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED6922980DC6B004FA3CF /* FormButtonStyle.swift */; };
+		AEBED6932980DC6B004FA3CF /* AuthButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED6922980DC6B004FA3CF /* AuthButtonStyle.swift */; };
 		AEBED6952980DCD5004FA3CF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBED6942980DCD5004FA3CF /* Colors.xcassets */; };
 		AEBED6972980E889004FA3CF /* View+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED6962980E889004FA3CF /* View+extension.swift */; };
 		AEBED699298178F1004FA3CF /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED698298178F1004FA3CF /* AuthHeaderView.swift */; };
@@ -53,20 +63,15 @@
 		AECC41AC297F5B1D0027D9AA /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC41AB297F5B1D0027D9AA /* AppCoordinator.swift */; };
 		AECC41B1297F5B1E0027D9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECC41B0297F5B1E0027D9AA /* Assets.xcassets */; };
 		AECC41B4297F5B1E0027D9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECC41B2297F5B1E0027D9AA /* LaunchScreen.storyboard */; };
-		AECC41BF297F5B1E0027D9AA /* RecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC41BE297F5B1E0027D9AA /* RecipesTests.swift */; };
-		AECC41C9297F5B1E0027D9AA /* RecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC41C8297F5B1E0027D9AA /* RecipesUITests.swift */; };
-		AECC41CB297F5B1E0027D9AA /* RecipesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC41CA297F5B1E0027D9AA /* RecipesUITestsLaunchTests.swift */; };
+		AEEC449D298217D500574E18 /* CreateAccountViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6CB41C298217120098F59E /* CreateAccountViewTests.swift */; };
+		AEEC44A02982183500574E18 /* ConfirmSignUpViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEC449F2982183500574E18 /* ConfirmSignUpViewTests.swift */; };
+		AEEC44A22982191E00574E18 /* ForgotPasswordViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEC44A12982191E00574E18 /* ForgotPasswordViewTests.swift */; };
+		AEEC44A729821C7F00574E18 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEC44A529821BFE00574E18 /* LoginViewModelTests.swift */; };
+		AEEC44AA2982B24D00574E18 /* TextFieldCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEC44A92982B24D00574E18 /* TextFieldCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AECC41BB297F5B1E0027D9AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AECC419C297F5B1D0027D9AA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AECC41A3297F5B1D0027D9AA;
-			remoteInfo = Recipes;
-		};
-		AECC41C5297F5B1E0027D9AA /* PBXContainerItemProxy */ = {
+		AE7FD5F929820C50003C5728 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AECC419C297F5B1D0027D9AA /* Project object */;
 			proxyType = 1;
@@ -88,6 +93,7 @@
 		AE21AA472980166900F6F591 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
 		AE21AA572980301700F6F591 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		AE21AA592980648F00F6F591 /* ConfirmSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpView.swift; sourceTree = "<group>"; };
+		AE6CB41C298217120098F59E /* CreateAccountViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewTests.swift; sourceTree = "<group>"; };
 		AE7FD5D929819881003C5728 /* AuthGradientBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthGradientBackgroundView.swift; sourceTree = "<group>"; };
 		AE7FD5DB29819C88003C5728 /* AuthDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDivider.swift; sourceTree = "<group>"; };
 		AE7FD5DE2981CAE2003C5728 /* AuthServiceEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceEnums.swift; sourceTree = "<group>"; };
@@ -96,6 +102,8 @@
 		AE7FD5E62981FDB3003C5728 /* ShoppingListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListCoordinator.swift; sourceTree = "<group>"; };
 		AE7FD5E82981FDBF003C5728 /* FavouriteRecipesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteRecipesCoordinator.swift; sourceTree = "<group>"; };
 		AE7FD5EA2981FDCF003C5728 /* MoreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreCoordinator.swift; sourceTree = "<group>"; };
+		AE7FD5F529820C50003C5728 /* AuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7FD5FF29820D6F003C5728 /* LoginViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewTests.swift; sourceTree = "<group>"; };
 		AEBED67A29806542004FA3CF /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
 		AEBED67C2980657A004FA3CF /* ConfirmSignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpViewModel.swift; sourceTree = "<group>"; };
 		AEBED67E298068EE004FA3CF /* CreateAccountCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountCoordinator.swift; sourceTree = "<group>"; };
@@ -107,7 +115,7 @@
 		AEBED68B2980DA35004FA3CF /* LoadingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingLabel.swift; sourceTree = "<group>"; };
 		AEBED68D2980DB4C004FA3CF /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		AEBED6902980DBB7004FA3CF /* HiddenModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenModifier.swift; sourceTree = "<group>"; };
-		AEBED6922980DC6B004FA3CF /* FormButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormButtonStyle.swift; sourceTree = "<group>"; };
+		AEBED6922980DC6B004FA3CF /* AuthButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButtonStyle.swift; sourceTree = "<group>"; };
 		AEBED6942980DCD5004FA3CF /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		AEBED6962980E889004FA3CF /* View+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+extension.swift"; sourceTree = "<group>"; };
 		AEBED698298178F1004FA3CF /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
@@ -120,14 +128,31 @@
 		AECC41B0297F5B1E0027D9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AECC41B3297F5B1E0027D9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AECC41B5297F5B1E0027D9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AECC41BA297F5B1E0027D9AA /* RecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AECC41BE297F5B1E0027D9AA /* RecipesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTests.swift; sourceTree = "<group>"; };
-		AECC41C4297F5B1E0027D9AA /* RecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECC41C8297F5B1E0027D9AA /* RecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesUITests.swift; sourceTree = "<group>"; };
 		AECC41CA297F5B1E0027D9AA /* RecipesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AEEC449F2982183500574E18 /* ConfirmSignUpViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpViewTests.swift; sourceTree = "<group>"; };
+		AEEC44A12982191E00574E18 /* ForgotPasswordViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewTests.swift; sourceTree = "<group>"; };
+		AEEC44A529821BFE00574E18 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		AEEC44A92982B24D00574E18 /* TextFieldCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AE7FD5F229820C50003C5728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6CB415298213470098F59E /* AWSLocationGeoPlugin in Frameworks */,
+				AE6CB40F298213470098F59E /* AWSAPIPlugin in Frameworks */,
+				AE7FD60429821021003C5728 /* SnapshotTesting in Frameworks */,
+				AE6CB40D298213470098F59E /* Amplify in Frameworks */,
+				AE6CB419298213470098F59E /* AWSPluginsCore in Frameworks */,
+				AE6CB413298213470098F59E /* AWSDataStorePlugin in Frameworks */,
+				AE6CB411298213470098F59E /* AWSCognitoAuthPlugin in Frameworks */,
+				AE6CB417298213470098F59E /* AWSPinpointAnalyticsPlugin in Frameworks */,
+				AE6CB41B298213470098F59E /* AWSS3StoragePlugin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AECC41A1297F5B1D0027D9AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -136,20 +161,6 @@
 				AE21AA452980121A00F6F591 /* Amplify in Frameworks */,
 				AE21AA3F2980121A00F6F591 /* AWSAPIPlugin in Frameworks */,
 				AE21AA412980121A00F6F591 /* AWSCognitoAuthPlugin in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AECC41B7297F5B1E0027D9AA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AECC41C1297F5B1E0027D9AA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +240,13 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		AE6CB40B298213470098F59E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE7FD5DD2981CAB1003C5728 /* Service */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,16 +268,23 @@
 			path = Tabs;
 			sourceTree = "<group>";
 		};
+		AE7FD5FE29820D5F003C5728 /* AuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC44A429821BBB00574E18 /* ViewModel Tests */,
+				AEEC44A329821BA600574E18 /* View Tests */,
+			);
+			path = AuthTests;
+			sourceTree = "<group>";
+		};
 		AEBED6822980C012004FA3CF /* RCommons */ = {
 			isa = PBXGroup;
 			children = (
-				AEBED6832980C02B004FA3CF /* RTextField.swift */,
-				AEBED6852980C948004FA3CF /* TextFieldRepresented.swift */,
-				AEBED6872980C984004FA3CF /* RSecureField.swift */,
+				AEEC44AB2982B2AC00574E18 /* Button Styles */,
+				AEEC44A82982B1E600574E18 /* Custom TextField */,
 				AEBED6892980CB5B004FA3CF /* Unwrap.swift */,
 				AEBED68B2980DA35004FA3CF /* LoadingLabel.swift */,
 				AEBED68D2980DB4C004FA3CF /* ActivityIndicator.swift */,
-				AEBED6922980DC6B004FA3CF /* FormButtonStyle.swift */,
 				AEBED698298178F1004FA3CF /* AuthHeaderView.swift */,
 				AE7FD5D929819881003C5728 /* AuthGradientBackgroundView.swift */,
 				AE7FD5DB29819C88003C5728 /* AuthDivider.swift */,
@@ -308,9 +333,9 @@
 			isa = PBXGroup;
 			children = (
 				AECC41A6297F5B1D0027D9AA /* Recipes */,
-				AECC41BD297F5B1E0027D9AA /* RecipesTests */,
 				AECC41C7297F5B1E0027D9AA /* RecipesUITests */,
 				AECC41A5297F5B1D0027D9AA /* Products */,
+				AE6CB40B298213470098F59E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -318,8 +343,7 @@
 			isa = PBXGroup;
 			children = (
 				AECC41A4297F5B1D0027D9AA /* Recipes.app */,
-				AECC41BA297F5B1E0027D9AA /* RecipesTests.xctest */,
-				AECC41C4297F5B1E0027D9AA /* RecipesUITests.xctest */,
+				AE7FD5F529820C50003C5728 /* AuthTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -329,6 +353,7 @@
 			children = (
 				AE21AA03297F669000F6F591 /* Coordinators */,
 				AEBED69A298182DE004FA3CF /* Auth */,
+				AE7FD5FE29820D5F003C5728 /* AuthTests */,
 				AE21AA0E297F69FB00F6F591 /* App Enviornment  */,
 				AE21AA5629802F4100F6F591 /* Generated */,
 				AEBED68F2980DBA8004FA3CF /* Modifiers */,
@@ -346,14 +371,6 @@
 			path = Recipes;
 			sourceTree = "<group>";
 		};
-		AECC41BD297F5B1E0027D9AA /* RecipesTests */ = {
-			isa = PBXGroup;
-			children = (
-				AECC41BE297F5B1E0027D9AA /* RecipesTests.swift */,
-			);
-			path = RecipesTests;
-			sourceTree = "<group>";
-		};
 		AECC41C7297F5B1E0027D9AA /* RecipesUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -363,9 +380,76 @@
 			path = RecipesUITests;
 			sourceTree = "<group>";
 		};
+		AEEC44A329821BA600574E18 /* View Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AE7FD5FF29820D6F003C5728 /* LoginViewTests.swift */,
+				AE6CB41C298217120098F59E /* CreateAccountViewTests.swift */,
+				AEEC449F2982183500574E18 /* ConfirmSignUpViewTests.swift */,
+				AEEC44A12982191E00574E18 /* ForgotPasswordViewTests.swift */,
+			);
+			path = "View Tests";
+			sourceTree = "<group>";
+		};
+		AEEC44A429821BBB00574E18 /* ViewModel Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC44A529821BFE00574E18 /* LoginViewModelTests.swift */,
+			);
+			path = "ViewModel Tests";
+			sourceTree = "<group>";
+		};
+		AEEC44A82982B1E600574E18 /* Custom TextField */ = {
+			isa = PBXGroup;
+			children = (
+				AEBED6832980C02B004FA3CF /* RTextField.swift */,
+				AEBED6872980C984004FA3CF /* RSecureField.swift */,
+				AEBED6852980C948004FA3CF /* TextFieldRepresented.swift */,
+				AEEC44A92982B24D00574E18 /* TextFieldCoordinator.swift */,
+			);
+			path = "Custom TextField";
+			sourceTree = "<group>";
+		};
+		AEEC44AB2982B2AC00574E18 /* Button Styles */ = {
+			isa = PBXGroup;
+			children = (
+				AEBED6922980DC6B004FA3CF /* AuthButtonStyle.swift */,
+			);
+			path = "Button Styles";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AE7FD5F429820C50003C5728 /* AuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7FD5FB29820C50003C5728 /* Build configuration list for PBXNativeTarget "AuthTests" */;
+			buildPhases = (
+				AE7FD5F129820C50003C5728 /* Sources */,
+				AE7FD5F229820C50003C5728 /* Frameworks */,
+				AE7FD5F329820C50003C5728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE7FD5FA29820C50003C5728 /* PBXTargetDependency */,
+			);
+			name = AuthTests;
+			packageProductDependencies = (
+				AE7FD60329821021003C5728 /* SnapshotTesting */,
+				AE6CB40C298213470098F59E /* Amplify */,
+				AE6CB40E298213470098F59E /* AWSAPIPlugin */,
+				AE6CB410298213470098F59E /* AWSCognitoAuthPlugin */,
+				AE6CB412298213470098F59E /* AWSDataStorePlugin */,
+				AE6CB414298213470098F59E /* AWSLocationGeoPlugin */,
+				AE6CB416298213470098F59E /* AWSPinpointAnalyticsPlugin */,
+				AE6CB418298213470098F59E /* AWSPluginsCore */,
+				AE6CB41A298213470098F59E /* AWSS3StoragePlugin */,
+			);
+			productName = AuthTests;
+			productReference = AE7FD5F529820C50003C5728 /* AuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AECC41A3297F5B1D0027D9AA /* Recipes */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AECC41CE297F5B1E0027D9AA /* Build configuration list for PBXNativeTarget "Recipes" */;
@@ -389,42 +473,6 @@
 			productReference = AECC41A4297F5B1D0027D9AA /* Recipes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AECC41B9297F5B1E0027D9AA /* RecipesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AECC41D1297F5B1E0027D9AA /* Build configuration list for PBXNativeTarget "RecipesTests" */;
-			buildPhases = (
-				AECC41B6297F5B1E0027D9AA /* Sources */,
-				AECC41B7297F5B1E0027D9AA /* Frameworks */,
-				AECC41B8297F5B1E0027D9AA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AECC41BC297F5B1E0027D9AA /* PBXTargetDependency */,
-			);
-			name = RecipesTests;
-			productName = RecipesTests;
-			productReference = AECC41BA297F5B1E0027D9AA /* RecipesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AECC41C3297F5B1E0027D9AA /* RecipesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AECC41D4297F5B1E0027D9AA /* Build configuration list for PBXNativeTarget "RecipesUITests" */;
-			buildPhases = (
-				AECC41C0297F5B1E0027D9AA /* Sources */,
-				AECC41C1297F5B1E0027D9AA /* Frameworks */,
-				AECC41C2297F5B1E0027D9AA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AECC41C6297F5B1E0027D9AA /* PBXTargetDependency */,
-			);
-			name = RecipesUITests;
-			productName = RecipesUITests;
-			productReference = AECC41C4297F5B1E0027D9AA /* RecipesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -435,16 +483,12 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					AE7FD5F429820C50003C5728 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AECC41A3297F5B1D0027D9AA;
+					};
 					AECC41A3297F5B1D0027D9AA = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					AECC41B9297F5B1E0027D9AA = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = AECC41A3297F5B1D0027D9AA;
-					};
-					AECC41C3297F5B1E0027D9AA = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = AECC41A3297F5B1D0027D9AA;
 					};
 				};
 			};
@@ -459,19 +503,26 @@
 			mainGroup = AECC419B297F5B1D0027D9AA;
 			packageReferences = (
 				AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */,
+				AE7FD60229821021003C5728 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 			);
 			productRefGroup = AECC41A5297F5B1D0027D9AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AECC41A3297F5B1D0027D9AA /* Recipes */,
-				AECC41B9297F5B1E0027D9AA /* RecipesTests */,
-				AECC41C3297F5B1E0027D9AA /* RecipesUITests */,
+				AE7FD5F429820C50003C5728 /* AuthTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AE7FD5F329820C50003C5728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AECC41A2297F5B1D0027D9AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -483,23 +534,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AECC41B8297F5B1E0027D9AA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AECC41C2297F5B1E0027D9AA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AE7FD5F129820C50003C5728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEC44A729821C7F00574E18 /* LoginViewModelTests.swift in Sources */,
+				AEEC449D298217D500574E18 /* CreateAccountViewTests.swift in Sources */,
+				AE7FD60129820D73003C5728 /* LoginViewTests.swift in Sources */,
+				AEEC44A22982191E00574E18 /* ForgotPasswordViewTests.swift in Sources */,
+				AEEC44A02982183500574E18 /* ConfirmSignUpViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AECC41A0297F5B1D0027D9AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -509,10 +558,11 @@
 				AE21AA0C297F699600F6F591 /* LoginView.swift in Sources */,
 				AE7FD5E32981FD7E003C5728 /* HomeCoordinator.swift in Sources */,
 				AE7FD5E72981FDB3003C5728 /* ShoppingListCoordinator.swift in Sources */,
-				AEBED6932980DC6B004FA3CF /* FormButtonStyle.swift in Sources */,
+				AEBED6932980DC6B004FA3CF /* AuthButtonStyle.swift in Sources */,
 				AEBED6812980A209004FA3CF /* UIViewController+extension.swift in Sources */,
 				AE7FD5DC29819C88003C5728 /* AuthDivider.swift in Sources */,
 				AEBED68E2980DB4C004FA3CF /* ActivityIndicator.swift in Sources */,
+				AEEC44AA2982B24D00574E18 /* TextFieldCoordinator.swift in Sources */,
 				AEBED6A029818331004FA3CF /* ForgotPasswordViewModel.swift in Sources */,
 				AE7FD5EB2981FDCF003C5728 /* MoreCoordinator.swift in Sources */,
 				AE21AA09297F68D900F6F591 /* UIView+extension.swift in Sources */,
@@ -545,35 +595,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AECC41B6297F5B1E0027D9AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AECC41BF297F5B1E0027D9AA /* RecipesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AECC41C0297F5B1E0027D9AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AECC41CB297F5B1E0027D9AA /* RecipesUITestsLaunchTests.swift in Sources */,
-				AECC41C9297F5B1E0027D9AA /* RecipesUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AECC41BC297F5B1E0027D9AA /* PBXTargetDependency */ = {
+		AE7FD5FA29820C50003C5728 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AECC41A3297F5B1D0027D9AA /* Recipes */;
-			targetProxy = AECC41BB297F5B1E0027D9AA /* PBXContainerItemProxy */;
-		};
-		AECC41C6297F5B1E0027D9AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AECC41A3297F5B1D0027D9AA /* Recipes */;
-			targetProxy = AECC41C5297F5B1E0027D9AA /* PBXContainerItemProxy */;
+			targetProxy = AE7FD5F929820C50003C5728 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -589,6 +617,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AE7FD5FC29820C50003C5728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U2RR2TUT7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akashDesai.AuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recipes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recipes";
+			};
+			name = Debug;
+		};
+		AE7FD5FD29820C50003C5728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U2RR2TUT7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akashDesai.AuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recipes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recipes";
+			};
+			name = Release;
+		};
 		AECC41CC297F5B1E0027D9AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -761,85 +827,18 @@
 			};
 			name = Release;
 		};
-		AECC41D2297F5B1E0027D9AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7U2RR2TUT7;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akashDesai.RecipesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recipes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recipes";
-			};
-			name = Debug;
-		};
-		AECC41D3297F5B1E0027D9AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7U2RR2TUT7;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akashDesai.RecipesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recipes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recipes";
-			};
-			name = Release;
-		};
-		AECC41D5297F5B1E0027D9AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7U2RR2TUT7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akashDesai.RecipesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Recipes;
-			};
-			name = Debug;
-		};
-		AECC41D6297F5B1E0027D9AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7U2RR2TUT7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akashDesai.RecipesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Recipes;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AE7FD5FB29820C50003C5728 /* Build configuration list for PBXNativeTarget "AuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7FD5FC29820C50003C5728 /* Debug */,
+				AE7FD5FD29820C50003C5728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AECC419F297F5B1D0027D9AA /* Build configuration list for PBXProject "Recipes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -858,30 +857,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AECC41D1297F5B1E0027D9AA /* Build configuration list for PBXNativeTarget "RecipesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AECC41D2297F5B1E0027D9AA /* Debug */,
-				AECC41D3297F5B1E0027D9AA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AECC41D4297F5B1E0027D9AA /* Build configuration list for PBXNativeTarget "RecipesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AECC41D5297F5B1E0027D9AA /* Debug */,
-				AECC41D6297F5B1E0027D9AA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
 		AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		AE7FD60229821021003C5728 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -909,6 +898,51 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */;
 			productName = Amplify;
+		};
+		AE6CB40C298213470098F59E /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+		AE6CB40E298213470098F59E /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSAPIPlugin;
+		};
+		AE6CB410298213470098F59E /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		AE6CB412298213470098F59E /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSDataStorePlugin;
+		};
+		AE6CB414298213470098F59E /* AWSLocationGeoPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSLocationGeoPlugin;
+		};
+		AE6CB416298213470098F59E /* AWSPinpointAnalyticsPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSPinpointAnalyticsPlugin;
+		};
+		AE6CB418298213470098F59E /* AWSPluginsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSPluginsCore;
+		};
+		AE6CB41A298213470098F59E /* AWSS3StoragePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE21AA3D2980121A00F6F591 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSS3StoragePlugin;
+		};
+		AE7FD60329821021003C5728 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE7FD60229821021003C5728 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

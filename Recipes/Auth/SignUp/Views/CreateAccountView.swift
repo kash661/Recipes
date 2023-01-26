@@ -99,6 +99,6 @@ private extension CreateAccountView {
             }
         })
         .frame(width: 110)
-        .buttonStyle(FormButtonStyle(isEnabled: true))
+        .buttonStyle(AuthButtonStyle(isEnabled: true))
     }
 }
