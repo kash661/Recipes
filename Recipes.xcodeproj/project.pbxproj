@@ -26,6 +26,11 @@
 		AE7FD5DA29819881003C5728 /* AuthGradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5D929819881003C5728 /* AuthGradientBackgroundView.swift */; };
 		AE7FD5DC29819C88003C5728 /* AuthDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5DB29819C88003C5728 /* AuthDivider.swift */; };
 		AE7FD5DF2981CAE2003C5728 /* AuthServiceEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5DE2981CAE2003C5728 /* AuthServiceEnums.swift */; };
+		AE7FD5E32981FD7E003C5728 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5E22981FD7E003C5728 /* HomeCoordinator.swift */; };
+		AE7FD5E52981FD92003C5728 /* UploadRecipeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5E42981FD92003C5728 /* UploadRecipeCoordinator.swift */; };
+		AE7FD5E72981FDB3003C5728 /* ShoppingListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5E62981FDB3003C5728 /* ShoppingListCoordinator.swift */; };
+		AE7FD5E92981FDBF003C5728 /* FavouriteRecipesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5E82981FDBF003C5728 /* FavouriteRecipesCoordinator.swift */; };
+		AE7FD5EB2981FDCF003C5728 /* MoreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FD5EA2981FDCF003C5728 /* MoreCoordinator.swift */; };
 		AEBED67B29806542004FA3CF /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED67A29806542004FA3CF /* CreateAccountViewModel.swift */; };
 		AEBED67D2980657A004FA3CF /* ConfirmSignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED67C2980657A004FA3CF /* ConfirmSignUpViewModel.swift */; };
 		AEBED67F298068EE004FA3CF /* CreateAccountCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBED67E298068EE004FA3CF /* CreateAccountCoordinator.swift */; };
@@ -86,6 +91,11 @@
 		AE7FD5D929819881003C5728 /* AuthGradientBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthGradientBackgroundView.swift; sourceTree = "<group>"; };
 		AE7FD5DB29819C88003C5728 /* AuthDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDivider.swift; sourceTree = "<group>"; };
 		AE7FD5DE2981CAE2003C5728 /* AuthServiceEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceEnums.swift; sourceTree = "<group>"; };
+		AE7FD5E22981FD7E003C5728 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		AE7FD5E42981FD92003C5728 /* UploadRecipeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadRecipeCoordinator.swift; sourceTree = "<group>"; };
+		AE7FD5E62981FDB3003C5728 /* ShoppingListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListCoordinator.swift; sourceTree = "<group>"; };
+		AE7FD5E82981FDBF003C5728 /* FavouriteRecipesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteRecipesCoordinator.swift; sourceTree = "<group>"; };
+		AE7FD5EA2981FDCF003C5728 /* MoreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreCoordinator.swift; sourceTree = "<group>"; };
 		AEBED67A29806542004FA3CF /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
 		AEBED67C2980657A004FA3CF /* ConfirmSignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpViewModel.swift; sourceTree = "<group>"; };
 		AEBED67E298068EE004FA3CF /* CreateAccountCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountCoordinator.swift; sourceTree = "<group>"; };
@@ -157,6 +167,7 @@
 		AE21AA03297F669000F6F591 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				AE7FD5E12981FD71003C5728 /* Tabs */,
 				AECC41AB297F5B1D0027D9AA /* AppCoordinator.swift */,
 				AE21AA05297F688500F6F591 /* HomeTabsCoordinator.swift */,
 				AEBED67E298068EE004FA3CF /* CreateAccountCoordinator.swift */,
@@ -225,6 +236,18 @@
 				AE7FD5DE2981CAE2003C5728 /* AuthServiceEnums.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		AE7FD5E12981FD71003C5728 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				AE7FD5E22981FD7E003C5728 /* HomeCoordinator.swift */,
+				AE7FD5E42981FD92003C5728 /* UploadRecipeCoordinator.swift */,
+				AE7FD5E62981FDB3003C5728 /* ShoppingListCoordinator.swift */,
+				AE7FD5E82981FDBF003C5728 /* FavouriteRecipesCoordinator.swift */,
+				AE7FD5EA2981FDCF003C5728 /* MoreCoordinator.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 		AEBED6822980C012004FA3CF /* RCommons */ = {
@@ -484,11 +507,14 @@
 				AEBED6842980C02B004FA3CF /* RTextField.swift in Sources */,
 				AE21AA31297F827900F6F591 /* CreateAccountView.swift in Sources */,
 				AE21AA0C297F699600F6F591 /* LoginView.swift in Sources */,
+				AE7FD5E32981FD7E003C5728 /* HomeCoordinator.swift in Sources */,
+				AE7FD5E72981FDB3003C5728 /* ShoppingListCoordinator.swift in Sources */,
 				AEBED6932980DC6B004FA3CF /* FormButtonStyle.swift in Sources */,
 				AEBED6812980A209004FA3CF /* UIViewController+extension.swift in Sources */,
 				AE7FD5DC29819C88003C5728 /* AuthDivider.swift in Sources */,
 				AEBED68E2980DB4C004FA3CF /* ActivityIndicator.swift in Sources */,
 				AEBED6A029818331004FA3CF /* ForgotPasswordViewModel.swift in Sources */,
+				AE7FD5EB2981FDCF003C5728 /* MoreCoordinator.swift in Sources */,
 				AE21AA09297F68D900F6F591 /* UIView+extension.swift in Sources */,
 				AE21AA2E297F79C500F6F591 /* LoginViewModel.swift in Sources */,
 				AEBED67B29806542004FA3CF /* CreateAccountViewModel.swift in Sources */,
@@ -509,10 +535,12 @@
 				AE21AA2C297F6E6B00F6F591 /* AuthService.swift in Sources */,
 				AE21AA06297F688500F6F591 /* HomeTabsCoordinator.swift in Sources */,
 				AE21AA10297F6A0B00F6F591 /* AppEnvironment.swift in Sources */,
+				AE7FD5E92981FDBF003C5728 /* FavouriteRecipesCoordinator.swift in Sources */,
 				AECC41AA297F5B1D0027D9AA /* SceneDelegate.swift in Sources */,
 				AEBED6912980DBB7004FA3CF /* HiddenModifier.swift in Sources */,
 				AE7FD5DA29819881003C5728 /* AuthGradientBackgroundView.swift in Sources */,
 				AE21AA02297F662600F6F591 /* GeneratedRecipe.swift in Sources */,
+				AE7FD5E52981FD92003C5728 /* UploadRecipeCoordinator.swift in Sources */,
 				AE7FD5DF2981CAE2003C5728 /* AuthServiceEnums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
