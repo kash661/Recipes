@@ -26,11 +26,20 @@ internal typealias AssetImageTypeAlias = ImageAsset.Image
 internal enum Asset {
   internal enum Assets {
     internal static let accentColor = ColorAsset(name: "AccentColor")
-    internal static let backArrow = ImageAsset(name: "back-arrow")
     internal static let closeX = ImageAsset(name: "close-x")
+    internal static let favouriteSelected = ImageAsset(name: "favourite-selected")
+    internal static let favouriteUnselected = ImageAsset(name: "favourite-unselected")
     internal static let forwardArrow = ImageAsset(name: "forward-arrow")
     internal static let hidePassword = ImageAsset(name: "hide-password")
+    internal static let homeSelected = ImageAsset(name: "home-selected")
+    internal static let homeUnselected = ImageAsset(name: "home-unselected")
+    internal static let moreSelected = ImageAsset(name: "more-selected")
+    internal static let moreUnselected = ImageAsset(name: "more-unselected")
+    internal static let shoppingSelected = ImageAsset(name: "shopping-selected")
+    internal static let shoppingUnselected = ImageAsset(name: "shopping-unselected")
     internal static let showPassword = ImageAsset(name: "show-password")
+    internal static let uploadSelected = ImageAsset(name: "upload-selected")
+    internal static let uploadUnselected = ImageAsset(name: "upload-unselected")
   }
   internal enum Colors {
     internal static let darkGreen = ColorAsset(name: "dark-green")
